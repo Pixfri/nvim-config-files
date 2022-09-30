@@ -22,6 +22,7 @@ Theses are my config files for Neovim
   [Vim Sneak](https://github.com/justinmk/vim-sneak)  
   [Quickscope](https://github.com/unblevable/quick-scope)  
   [Vim Which-Key](https://github.com/liuchengxu/vim-which-key)  
+  [Vim Floaterm](https://github.com/voldikss/vim-floaterm)  
 
 ## Using this config  
 
