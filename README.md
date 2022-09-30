@@ -20,8 +20,9 @@ Theses are my config files for Neovim
   [Vim Rhubarb](https://github.com/tpope/vim-rhubarb)  
   [Gv.vim](https://github.com/junegunn/gv.vim)  
   [Vim Sneak](https://github.com/justinmk/vim-sneak)  
-  [Quickscope](https://github.com/unblevable/quick-scope)
-  
+  [Quickscope](https://github.com/unblevable/quick-scope)  
+  [Vim Which-Key](https://github.com/liuchengxu/vim-which-key)  
+
 ## Using this config  
 
 ### 1. Installing Neovim  
