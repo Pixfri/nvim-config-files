@@ -51,4 +51,4 @@ Type `sudo apt install -y git`
 Type `sudo pacman -S git`
 
 #### 2. Clone the repo
-Type `git clone https://github.com/Pixfri/nvim-config-file ~/.config/nvim`
+Type `git clone https://github.com/Pixfri/nvim-config-files ~/.config/nvim`
