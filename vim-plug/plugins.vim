@@ -45,5 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'voldikss/vim-floaterm'
 	" Vim Snippets
 	Plug 'honza/vim-snippets'
+	" Tagbar
+	Plug 'preservim/tagbar'
 
 call plug#end()
