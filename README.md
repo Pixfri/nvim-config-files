@@ -19,6 +19,7 @@ Theses are my config files for Neovim
   [Vim Fugitive](https://github.com/tpope/vim-fugitive)  
   [Vim Rhubarb](https://github.com/tpope/vim-rhubarb)  
   [Gv.vim](https://github.com/junegunn/gv.vim)  
+  [Vim Sneak](https://github.com/justinmk/vim-sneak)
   
 ## Using this config  
 
