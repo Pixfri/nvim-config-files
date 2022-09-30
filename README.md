@@ -25,7 +25,7 @@ Theses are my config files for Neovim
 
 ### 1. Installing Neovim  
 
-####Using a package manager :  
+#### Using a package manager :  
 
 ##### On Debian/Ubuntu based distros :  
 Type `sudo apt install -y neovim`
