@@ -9,4 +9,5 @@ source $HOME/.config/nvim/plug-config/rainbox-parentheses.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/quickscope.vim
 lua require 'plug-colorizer'
