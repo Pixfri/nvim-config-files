@@ -1,24 +1,37 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml", "json", "python", "supercollider", "c", "c++"],
-  
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "supercollider",
+    "c",
+    "c++"
+  ],
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
-
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
     "v": "open:vsplit"
   },
-
   // Completion Icons (Needs to install Nerd Fonts. For me it's 'JetBrains Mono Nerd Fonts')
   "suggest.completionItemKindLabels": {
     "method": "  ",

@@ -43,5 +43,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'liuchengxu/vim-which-key'
 	" Floaterm
 	Plug 'voldikss/vim-floaterm'
+	" Vim Snippets
+	Plug 'honza/vim-snippets'
 
 call plug#end()
