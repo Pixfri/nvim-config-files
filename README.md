@@ -57,3 +57,7 @@ Type `sudo pacman -S git`
 
 #### 2. Clone the repo
 Type `git clone https://github.com/Pixfri/nvim-config-files ~/.config/nvim`
+
+## Adding snippets
+If you want to add snippets to this config, just do that :  
+1. Create a file in the folder `snips` called `language.snippets`, you have an example snippet with `snips/cpp.snippets`
