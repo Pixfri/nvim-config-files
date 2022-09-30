@@ -1,7 +1,7 @@
 # Neovim Config Files
 Theses are my config files for Neovim
 
-## Plugins Used  
+## Plugins I use :
   [Vim Polyglot](https://github.com/sheerun/vim-polyglot)  
   [NERD Tree](https://github.com/scrooloose/NERDTree)  
   [Auto Pairs](https://github.com/jiangmiao/auto-pairs)  
