@@ -47,5 +47,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'honza/vim-snippets'
 	" Tagbar
 	Plug 'preservim/tagbar'
+	" Ranger
+	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 call plug#end()

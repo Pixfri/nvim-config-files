@@ -24,7 +24,36 @@ Theses are my config files for Neovim
   [Vim Which-Key](https://github.com/liuchengxu/vim-which-key)  
   [Vim Floaterm](https://github.com/voldikss/vim-floaterm)  
   [Vim Snippets](https://github.com/honza/vim-snippets)  
-  [Tagbar](https://github.com/preservim/tagbar)
+  [Tagbar](https://github.com/preservim/tagbar)  
+
+## Dependencies (on Ubuntu, I don't if these are the same on Arch)
+Install with apt :  
+exuberant-ctags  
+x11-common  
+libxext6  
+libxext-dev  
+libxres1  
+libxres-dev  
+python3  
+ranger  
+fzf  
+ripgrep  
+universal-ctags  
+silversearcher-ag  
+fd-find  
+ncurses-term  
+
+CoC extensions to install :  
+coc-explorer  
+coc-marketplace  
+coc-snippets  
+
+Install with pip3:  
+ueberzug  
+pynvim  
+
+Install with npm:  
+neovim (Install with the global option)  
 
 ## Using this config  
 
@@ -106,7 +135,8 @@ Moving in vim needs to be in normal mode.
 | Space + f (Normal Mode) | Toggle coc-explorer on top of the current buffer |
 | Space + h or H (Normal Mode) | Split below |
 | Space + v or V (Normal Mode) | Split right |
-| Space | Toggle Vim Which-Key to view all list of controls |
+| Space (Normal Mode) | Toggle Vim Which-Key to view all list of controls |
+| Space + r (Normal Mode) | Toggle Ranger |
 
 ## Commands
 To execute a command, just type `:` when you are in normal mode.  

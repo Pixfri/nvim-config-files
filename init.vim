@@ -14,4 +14,5 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
 source $HOME/.config/nvim/plug-config/tagbar.vim
+source $HOME/.config/nvim/plug-config/rnvimr.vim
 lua require 'plug-colorizer'
