@@ -62,3 +62,12 @@ Type `git clone https://github.com/Pixfri/nvim-config-files ~/.config/nvim`
 ## Adding snippets
 If you want to add snippets to this config, just do that :  
 1. Create a file in the folder `snips` called `language.snippets`, you have an example snippet with `snips/cpp.snippets`
+
+## Controls
+| Key/Input | Action |
+| :---: | :---: |
+| F1 | Toggle floaterm |
+| F2 | Go to the next floaterm instance |
+| F3 | Go to the previous floaterm instance |
+| F4 | Create a new floaterm instance |
+| F8 (In a C or C++ File) | Toggle tagbar |
