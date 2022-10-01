@@ -118,6 +118,8 @@ To execute a command, just type `:` when you are in normal mode.
 | q! | Quit vim without saving open buffers |
 | Git | Show informations about your git repository |
 | Git [git command] | Use a git command |
+| GBrowse | Open your git repository in your navigator |
+| GFiles | Show every files that git finds |
 | NERDTree | Open NERDTree |
 | NERDTreeClose | Close NERDTree |
 | CocList marketplace | Shows the list of available plugins for CoC |
