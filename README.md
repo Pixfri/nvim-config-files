@@ -117,7 +117,7 @@ To execute a command, just type `:` when you are in normal mode.
 | wq | Save and quit vim |
 | q! | Quit vim without saving open buffers |
 | Git | Show informations about your git repository |
-| Git <git command> | Use a git command |
+| Git [git command] | Use a git command |
 | NERDTree | Open NERDTree |
 | NERDTreeClose | Close NERDTree |
 | CocList marketplace | Shows the list of available plugins for CoC |
