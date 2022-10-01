@@ -66,8 +66,17 @@ If you want to add snippets to this config, just do that :
 ## Controls
 | Key/Input | Action |
 | :---: | :---: |
-| F1 | Toggle floaterm |
-| F2 | Go to the next floaterm instance |
-| F3 | Go to the previous floaterm instance |
-| F4 | Create a new floaterm instance |
-| F8 (In a C or C++ File) | Toggle tagbar |
+| F1 (Normal Mode) | Toggle floaterm |
+| F2 (Normal Mode) | Go to the next floaterm instance |
+| F3 (Normal Mode) | Go to the previous floaterm instance |
+| F4 (Normal Mode) | Create a new floaterm instance |
+| F8 (In a C or C++ File / Normal Mode) | Toggle tagbar |
+| jk or kj (Fast / Insert Mode) | Go back in normal mode |
+| Space + b (Normal Mode) | Open the list of open buffers |
+| Space + g (Normal Mode) | Toggle Ripgrep |
+| Ctrl + f (Normal Mode) | Toggle the list of files |
+| Space + e (Normal Mode) | Toggle coc-explorer in the left of the screen |
+| Space + f (Normal Mode) | Toggle coc-explorer on top of the current buffer |
+| Space + h or H (Normal Mode) | Split below |
+| Space + v or V (Normal Mode) | Split right |
+| Space | Toggle Vim Which-Key to view all list of controls |
