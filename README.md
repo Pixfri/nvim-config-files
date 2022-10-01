@@ -63,6 +63,33 @@ Type `git clone https://github.com/Pixfri/nvim-config-files ~/.config/nvim`
 If you want to add snippets to this config, just do that :  
 1. Create a file in the folder `snips` called `language.snippets`, you have an example snippet with `snips/cpp.snippets`
 
+## Moving in vim
+Moving in vim needs to be in normal mode.
+
+| Key | Action |
+| :---: | :---: |
+| h | Go left |
+| j | Go down |
+| k | Go up |
+| l | Go right |
+| :LineNumber | Go to the line number you indicated |
+
+## Editing in vim
+
+| Key | Action |
+| :---: | :---: |
+| i (Normal Mode) | Toggle insert mode and go before the character on the cursor |
+| a (Normal Mode) | Toggle insert mode and go after the character on the cursor |
+| v (Normal Mode) | Toggle visual mode |
+| Shift + v (Normal Mode) | Toggle visual line mode |
+| Ctrl + v (Normal Mode) | Toggle visual block mode |
+| y (Any visual mode) | Copy the selected text |
+| x / c (Any visual mode) | Cut the current text |
+| p (Normal Mode) | Paste the text |
+| yy (Normal Mode) | Copy the current line |
+| x (Normal Mode) | Cut the character on the cursor |
+| r (Normal Mode) | Replace the character on the cursor with the character you input |
+
 ## Controls
 | Key/Input | Action |
 | :---: | :---: |
@@ -80,3 +107,29 @@ If you want to add snippets to this config, just do that :
 | Space + h or H (Normal Mode) | Split below |
 | Space + v or V (Normal Mode) | Split right |
 | Space | Toggle Vim Which-Key to view all list of controls |
+
+## Commands
+To execute a command, just type `:` when you are in normal mode.  
+
+| Command | Action |
+| :---: | :---: |
+| q | Quit vim |
+| wq | Save and quit vim |
+| q! | Quit vim without saving open buffers |
+| Git | Show informations about your git repository |
+| Git <git command> | Use a git command |
+| NERDTree | Open NERDTree |
+| NERDTreeClose | Close NERDTree |
+| CocList marketplace | Shows the list of available plugins for CoC |
+| CocList commands | Shows the list of available command |
+| CocCommand | Execute a command |
+| CocConfig | Open the `coc-settings.json` file |
+
+## Searching text
+To search text, you must be in normal mode.  
+
+`/text` The classic vim search.
+`s + the two first letters of the word` search the two letters after the cursor position.
+`S + the two first letters of the word` search the two letters before the cursor position.
+`f/t` Highlight the first letter of each word after the cursor. Just press the letter you want and quickscope will go to this letter. You can press multiple times the letter to go to the other occurences.
+`F/T` Highlight the first letter of each word before the cursor. Just press the letter you want and quickscope will go to this letter. You can press multiple times the letter to go to the other occurences.
