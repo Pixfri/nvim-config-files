@@ -127,9 +127,10 @@ To execute a command, just type `:` when you are in normal mode.
 
 ## Searching text
 To search text, you must be in normal mode.  
-
-`/text` The classic vim search.
-`s + the two first letters of the word` search the two letters after the cursor position.
-`S + the two first letters of the word` search the two letters before the cursor position.
-`f/t` Highlight the first letter of each word after the cursor. Just press the letter you want and quickscope will go to this letter. You can press multiple times the letter to go to the other occurences.
-`F/T` Highlight the first letter of each word before the cursor. Just press the letter you want and quickscope will go to this letter. You can press multiple times the letter to go to the other occurences.
+| Input | Action |
+| :---: | :---: |
+| `/text` | The classic vim search. |
+| `s + the two first letters of the word` | search the two letters after the cursor position. |
+| `S + the two first letters of the word` | search the two letters before the cursor position. |
+| `f/t` | Highlight the first letter of each word after the cursor. Just press the letter you want and quickscope will go to this letter. You can press multiple times the letter to go to the other occurences. |
+| `F/T` | Highlight the first letter of each word before the cursor. Just press the letter you want and quickscope will go to this letter. You can press multiple times the letter to go to the other occurences. |
