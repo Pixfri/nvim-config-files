@@ -47,13 +47,18 @@ CoC extensions to install :
 coc-explorer  
 coc-marketplace  
 coc-snippets  
+coc-java  
 
-Install with pip3:  
+Install with pip3 :  
 ueberzug  
 pynvim  
 
-Install with npm:  
+Install with npm :  
 neovim (Install with the global option)  
+
+Install with wget :  
+`sudo mkdir /usr/local/share/lombok/`
+`sudo wget https://projectlombok.org/downloads/lombok.jar -O /usr/local/share/lombok/lombok.jar`
 
 ## Using this config  
 

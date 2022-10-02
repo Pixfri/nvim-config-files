@@ -59,5 +59,12 @@
     "constructor": "  ",
     "value": "  ",
     "enumMember": "  "
-  }
+  },
+
+  // For Java Developpement
+  // codelens
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  // "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar -Xbootclasspath/a:/usr/local/share/lombok/lombok.jar", // for older versions of Java
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar"
 }
