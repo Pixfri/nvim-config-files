@@ -25,8 +25,9 @@ Theses are my config files for Neovim
   [Vim Floaterm](https://github.com/voldikss/vim-floaterm)  
   [Vim Snippets](https://github.com/honza/vim-snippets)  
   [Tagbar](https://github.com/preservim/tagbar)  
+  [Vim Lion](https://github.com/tommcdo/vim-lion)  
 
-## Dependencies (on Ubuntu, I don't if these are the same on Arch)
+## Dependencies (on Ubuntu. I don't if these are the same on Arch)
 Install with apt :  
 exuberant-ctags  
 x11-common  

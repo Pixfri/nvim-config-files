@@ -49,5 +49,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'preservim/tagbar'
 	" Ranger
 	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+	" Vim Lion
+	Plug 'tommcdo/vim-lion'
 
 call plug#end()
