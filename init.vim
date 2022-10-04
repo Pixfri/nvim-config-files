@@ -15,4 +15,5 @@ source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
 source $HOME/.config/nvim/plug-config/tagbar.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
+source $HOME/.config/nvim/plug-config/lion.vim
 lua require 'plug-colorizer'
