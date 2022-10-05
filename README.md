@@ -53,7 +53,9 @@ CoC extensions to install :
 coc-explorer  
 coc-marketplace  
 coc-snippets  
-coc-java
+coc-java  
+coc-prettier  
+coc-clangd
 
 Install with pip3 :  
 ueberzug  

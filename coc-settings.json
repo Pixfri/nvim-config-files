@@ -10,7 +10,7 @@
     "python",
     "supercollider",
     "c",
-    "c++"
+    "cpp"
   ],
   // python config
   "python.linting.enabled": true,
