@@ -36,13 +36,13 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 "set autochdir                           " Your working directory will always be the same as your working directory
 set autoread                            " Automatically read on change.
 
-au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vim alternatively you can run :source $MYVIMRC
 
 " You can't stop me
 cmap w!! w !sudo tee %
 
 " Function to trim extra whitespace in whole file
-function! Trim()  
+function! Trim()
   let l:save = winsaveview()
   keeppatterns %s/\s\+$//e
   call winrestview(l:save)

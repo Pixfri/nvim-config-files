@@ -51,5 +51,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 	" Vim Lion
 	Plug 'tommcdo/vim-lion'
+	" Ctags
+	Plug 'universal-ctags/ctags'
 
 call plug#end()
