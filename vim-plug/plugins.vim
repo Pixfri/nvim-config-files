@@ -53,5 +53,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tommcdo/vim-lion'
 	" Ctags
 	Plug 'universal-ctags/ctags'
+	" Vimux
+	Plug 'preservim/vimux'
 
 call plug#end()

@@ -5,30 +5,31 @@ Theses are my config files for Neovim
 ## Plugins I use :
 
 [Vim Polyglot](https://github.com/sheerun/vim-polyglot)  
- [NERD Tree](https://github.com/scrooloose/NERDTree)  
- [Auto Pairs](https://github.com/jiangmiao/auto-pairs)  
- [Gruvbox Theme](https://github.com/morhetz/gruvbox)  
- [CoC.nvim](https://github.com/neoclide/coc.nvim)  
- [Vim Airline](https://github.com/vim-airline/vim-airline)  
- [Vim Airline Themes](https://github.com/vim-airline/vim-airline-themes)  
- [FZF](https://github.com/junegunn/fzf)  
- [FZF.vim](https://github.com/junegunn/fzf.vim)  
- [Vim Rooter](https://github.com/airblade/vim-rooter)  
- [Nvim Colorizer](https://github.com/norcalli/nvim-colorizer.lua)  
- [Rainbow Parentheses](https://github.com/junegunn/rainbow-parentheses.vim)  
- [Vim Startify](https://github.com/mhinz/vim-startify)  
- [Vim Signify](https://github.com/mhinz/vim-signify)  
- [Vim Fugitive](https://github.com/tpope/vim-fugitive)  
- [Vim Rhubarb](https://github.com/tpope/vim-rhubarb)  
- [Gv.vim](https://github.com/junegunn/gv.vim)  
- [Vim Sneak](https://github.com/justinmk/vim-sneak)  
- [Quickscope](https://github.com/unblevable/quick-scope)  
- [Vim Which-Key](https://github.com/liuchengxu/vim-which-key)  
- [Vim Floaterm](https://github.com/voldikss/vim-floaterm)  
- [Vim Snippets](https://github.com/honza/vim-snippets)  
- [Tagbar](https://github.com/preservim/tagbar)  
- [Vim Lion](https://github.com/tommcdo/vim-lion)  
- [Ctags](github.com/universal-ctags/ctags)
+[NERD Tree](https://github.com/scrooloose/NERDTree)  
+[Auto Pairs](https://github.com/jiangmiao/auto-pairs)  
+[Gruvbox Theme](https://github.com/morhetz/gruvbox)  
+[CoC.nvim](https://github.com/neoclide/coc.nvim)  
+[Vim Airline](https://github.com/vim-airline/vim-airline)  
+[Vim Airline Themes](https://github.com/vim-airline/vim-airline-themes)  
+[FZF](https://github.com/junegunn/fzf)  
+[FZF.vim](https://github.com/junegunn/fzf.vim)  
+[Vim Rooter](https://github.com/airblade/vim-rooter)  
+[Nvim Colorizer](https://github.com/norcalli/nvim-colorizer.lua)  
+[Rainbow Parentheses](https://github.com/junegunn/rainbow-parentheses.vim)  
+[Vim Startify](https://github.com/mhinz/vim-startify)  
+[Vim Signify](https://github.com/mhinz/vim-signify)  
+[Vim Fugitive](https://github.com/tpope/vim-fugitive)  
+[Vim Rhubarb](https://github.com/tpope/vim-rhubarb)  
+[Gv.vim](https://github.com/junegunn/gv.vim)  
+[Vim Sneak](https://github.com/justinmk/vim-sneak)  
+[Quickscope](https://github.com/unblevable/quick-scope)  
+[Vim Which-Key](https://github.com/liuchengxu/vim-which-key)  
+[Vim Floaterm](https://github.com/voldikss/vim-floaterm)  
+[Vim Snippets](https://github.com/honza/vim-snippets)  
+[Tagbar](https://github.com/preservim/tagbar)  
+[Vim Lion](https://github.com/tommcdo/vim-lion)  
+[Ctags](https://github.com/universal-ctags/ctags)
+[Vimux](https://github.com/preservim/vimux)
 
 ## Dependencies (on Ubuntu. I don't if these are the same on Arch)
 
@@ -45,7 +46,8 @@ ripgrep
 universal-ctags  
 silversearcher-ag  
 fd-find  
-ncurses-term
+ncurses-term  
+tmux
 
 CoC extensions to install :  
 coc-explorer  
@@ -150,6 +152,8 @@ Moving in vim needs to be in normal mode.
 |           F2 (Normal Mode)            |         Go to the next floaterm instance          |
 |           F3 (Normal Mode)            |       Go to the previous floaterm instance        |
 |           F4 (Normal Mode)            |          Create a new floaterm instance           |
+|           F5 (Normal Mode)            |               Open the tmux runner                |
+|           F6 (Normal Mode)            |               Close the tmux runner               |
 | F8 (In a C or C++ File / Normal Mode) |                   Toggle tagbar                   |
 |     jk or kj (Fast / Insert Mode)     |              Go back in normal mode               |
 |        Space + b (Normal Mode)        |           Open the list of open buffers           |

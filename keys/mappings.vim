@@ -46,3 +46,7 @@ nnoremap <Leader>O O<Esc>^Da
 " Better window splitting
 nnoremap <Leader>V :vsplit<CR>
 nnoremap <Leader>H :split<CR>
+
+" Vimux mappings
+nnoremap <silent><F5> :VimuxOpenRunner<CR>
+nnoremap <silent><F6> :VimuxCloseRunner<CR>
