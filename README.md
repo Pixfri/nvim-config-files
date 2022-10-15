@@ -28,8 +28,9 @@ Theses are my config files for Neovim
 [Vim Snippets](https://github.com/honza/vim-snippets)  
 [Tagbar](https://github.com/preservim/tagbar)  
 [Vim Lion](https://github.com/tommcdo/vim-lion)  
-[Ctags](https://github.com/universal-ctags/ctags)
-[Vimux](https://github.com/preservim/vimux)
+[Ctags](https://github.com/universal-ctags/ctags)  
+[Vimux](https://github.com/preservim/vimux)  
+[Lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 
 ## Dependencies (on Ubuntu. I don't if these are the same on Arch)
 
@@ -65,8 +66,11 @@ Install with npm :
 neovim (Install with the global option)
 
 Install with wget :  
-`sudo mkdir /usr/local/share/lombok/`
+`sudo mkdir /usr/local/share/lombok/`  
 `sudo wget https://projectlombok.org/downloads/lombok.jar -O /usr/local/share/lombok/lombok.jar`
+
+Custom Installation :  
+[Lazygit](https://github.com/jesseduffield/lazygit)
 
 ## Using this config
 
@@ -167,6 +171,7 @@ Moving in vim needs to be in normal mode.
 |     Space + v or V (Normal Mode)      |                    Split right                    |
 |          Space (Normal Mode)          | Toggle Vim Which-Key to view all list of controls |
 |        Space + r (Normal Mode)        |                   Toggle Ranger                   |
+|              Space + gg               |                 Open Lazygit GUI                  |
 
 ## Commands
 

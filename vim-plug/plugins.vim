@@ -55,5 +55,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'universal-ctags/ctags'
 	" Vimux
 	Plug 'preservim/vimux'
+	" Lazygit
+	Plug 'kdheepak/lazygit.nvim'
 
 call plug#end()

@@ -16,4 +16,5 @@ source $HOME/.config/nvim/plug-config/snippets.vim
 source $HOME/.config/nvim/plug-config/tagbar.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/lion.vim
+source $HOME/.config/nvim/plug-config/lazygit.vim
 lua require 'plug-colorizer'

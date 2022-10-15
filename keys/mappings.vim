@@ -50,3 +50,6 @@ nnoremap <Leader>H :split<CR>
 " Vimux mappings
 nnoremap <silent><F5> :VimuxOpenRunner<CR>
 nnoremap <silent><F6> :VimuxCloseRunner<CR>
+
+" setup mapping to call :LazyGit
+nnoremap <silent> <leader>gg :LazyGit<CR>
